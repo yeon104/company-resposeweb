@@ -49,7 +49,7 @@
 .board_wrap .pagenation{font-size:0;text-align:center;margin-top:50px;color:transparent;}
 .board_wrap .pagenation > div{vertical-align:middle;display:inline-block;}
 .board_wrap .pagenation .page_navi a{width:20px;height:20px;position:relative;}
-.board_wrap .pagenation .page_navi a:before{content:"";display:block;position:absolute;background:url(../img_new/common/icon_left_arrow.png) no-repeat left top;top:calc(50% - 7px);left:calc(50% - 4px);width:13px;height:15px;}
+.board_wrap .pagenation .page_navi a:before{content:"";display:block;position:absolute;background:url(../images/img/icon_left_arrow.png) no-repeat left top;top:calc(50% - 7px);left:calc(50% - 4px);width:13px;height:15px;}
 .board_wrap .pagenation .page_navi a:hover:before{background-position-x:-13px;}
 .board_wrap .pagenation .page_navi.next a:before{transform:scaleX(-1);}
 .board_wrap .pagenation .page_navi a.prev_btn5:before,
@@ -178,7 +178,7 @@
 .board_wrap .magazine_list .context .imgbox{width: 140px;height: 140px;}
 .board_wrap .magazine_list .context .imgbox img{border-radius: 20px;width: 100%;height: 100%;object-fit: cover;object-position: center;}
 .board_wrap .magazine_list .context .title{font-size: 24px;font-weight: 700;margin-bottom: 16px;line-height: 30px;}
-.board_wrap .magazine_list .context .subtitle{font-size: 20px;font-weight: 500;color: #797979;line-height: 26px;}
+.board_wrap .magazine_list .context .subtitle{font-size: 15px;font-weight: 350;color: #797979;line-height: 26px;}
 @media (max-width:1000px) {
     .board_wrap .magazine_list{margin-bottom: 100px;}
     .board_wrap .magazine_list .context:after{bottom: -31px;}
