@@ -119,8 +119,11 @@
 .main .sec02 .mask_text.type3 .zoom_circle{background-image: url(../images/barnd3.jpg);}
 .main .sec02 .mask_text.type4 .zoom_circle{background-image: url(../images/barnd4.jpg);}
 .main .sec02 .mask_text.type5 .zoom_circle{background-image: url(../images/barnd5.jpg);}
+.main .sec02 .mask_text.type6 .zoom_circle{background-image: url(../images/barnd6.jpg);}
+.main .sec02 .mask_text.type7 .zoom_circle{background-image: url(../images/barnd7.jpg);}
+.main .sec02 .mask_text.type8 .zoom_circle{background-image: url(../images/barnd8.jpg);}
 .main .sec02 .tab_box{font-size: 0;margin: 50px 0;}
-.main .sec02 .tab_box .brand_tab{width: 180px;height: 58px;box-sizing: border-box;border: 1px solid #181818;font-size: 24px;font-weight: 700;background-color: transparent;border-radius: 29px;}
+.main .sec02 .tab_box .brand_tab{    width: 135px;height: 43px;box-sizing: border-box;border: 1px solid #181818;font-size: 18px;font-weight: 530;background-color: transparent;border-radius: 29px;}
 .main .sec02 .tab_box .brand_tab + .brand_tab{margin-left: 20px;}
 .main .sec02 .tab_box .brand_tab.active{background-color: #181818;color: white;transition: 250ms ease-in-out;transition-property: background-color, color;}
 .main .sec02 .matchbox{margin-bottom: 40px;}
@@ -137,12 +140,15 @@
 .main .sec02 .banner_link{width: 210px;height: 40px; border-radius: 20px;border: 2px solid white;font-size: 18px;font-weight: 700;display: flex;align-items: center;justify-content: center;}
 .main .sec02 .banner_link:after{content: "";display: inline-block;width: 9px;vertical-align: top;background: url(../img_new/common/arrow_right_white.svg) no-repeat center / contain;height: 15px;margin-left: 12px;}
 @media(min-width:1001px) {
-    .main .sec02 .mask_text:before{content: "HISEN";display: block;position: absolute;width: 100%;height: 100%;background-size: cover;background-repeat: no-repeat;background-position: center;-webkit-background-clip: text;font-size: 190px;font-weight: 900;color: transparent;white-space: nowrap;}
+    .main .sec02 .mask_text:before{content: "에이치비에스";display: block;position: absolute;width: 100%;height: 100%;background-size: cover;background-repeat: no-repeat;background-position: center;-webkit-background-clip: text;font-size: 190px;font-weight: 900;color: transparent;white-space: nowrap;}
     .main .sec02 .mask_text.type1:before{background-image: url(../images/barnd1.jpg);}
     .main .sec02 .mask_text.type2:before{background-image: url(../images/barnd2.jpg);}
     .main .sec02 .mask_text.type3:before{background-image: url(../images/barnd3.jpg);}
     .main .sec02 .mask_text.type4:before{background-image: url(../images/barnd4.jpg);}
     .main .sec02 .mask_text.type5:before{background-image: url(../images/barnd5.jpg);}
+    .main .sec02 .mask_text.type6:before{background-image: url(../images/barnd6.jpg);}
+    .main .sec02 .mask_text.type7:before{background-image: url(../images/barnd7.jpg);}
+    .main .sec02 .mask_text.type8:before{background-image: url(../images/barnd8.jpg);}
     .main .sec02 .mask_text .zoom_circle{background-size: 1200px;width: 100%;height: 100%;top: 0;left: 0;clip-path: circle(0%);}
     .main .sec02 .mask_text.on .zoom_circle.on{clip-path: circle(100%);transition: clip-path 1s 800ms ease-out;}
 
@@ -159,7 +165,7 @@
     .main .sec02 .mask_text{width: 100%;border-radius: 0;height: 216px;}
     .main .sec02 .mask_text .zoom_circle{width: 100%;height: 100%;top: 0;left: 0;}
     .main .sec02 .tab_box{margin: 40px 0 50px;}
-    .main .sec02 .tab_box .brand_tab{width: 150px;height: 50px;border-radius: 25px;font-size: 20px;}
+    .main .sec02 .tab_box .brand_tab{width: 150px;height: 50px;border-radius: 25px;font-size: 20px;margin-bottom: 7px;}
     .main .sec02 .matchbox{margin-bottom: 35px;}
     .main .sec02 .linkbox{margin-bottom: 80px;}
     .main .sec02 .linkbox a{font-size: 22px;}
