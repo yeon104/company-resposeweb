@@ -15,7 +15,7 @@
 #main .sec06 .slide_bx .slick-list { margin: 0 -20px; }
 #main .sec06 .slide_bx .slide a{ position:relative; display:block; padding-top:33px; }
 #main .sec06 .slide_bx .slide a:before{ content:''; position:absolute; left:0; top:0; width:100%; height:2px; background:#222; }
-#main .sec06 .slide_bx .slide a:after{ content:''; position:absolute; left:0; top:0; width:0; height:2px; background: linear-gradient( to right, #0075c2 10%, #008cd6 40%, #00ac97 75%, #6fba2c ); -webkit-transition:all 0.3s; -moz-transition:all 0.3s; transition:all 0.3s; }
+#main .sec06 .slide_bx .slide a::after{ content:''; position:absolute; left:0; top:0; width:0; height:2px; background: linear-gradient( to right, #0075c2 10%, #008cd6 40%, #00ac97 75%, #6fba2c ); -webkit-transition:all 0.3s; -moz-transition:all 0.3s; transition:all 0.3s; }
 #main .sec06 .slide_bx .slide a > strong{ display:block; height:76px; font-size:28px; line-height:38px; color:#222; letter-spacing:-0.05em; white-space: normal; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp:2; -webkit-box-orient: vertical; overflow:hidden; -webkit-transition:all 0.3s; -moz-transition:all 0.3s; transition:all 0.3s; }
 #main .sec06 .slide_bx .slide a > p{ margin-top:34px; height:120px; font-size:18px; line-height:30px; color:#aaa; letter-spacing:-0.05em; white-space: normal; word-wrap: break-word; display: -webkit-box; -webkit-line-clamp:4; -webkit-box-orient: vertical; overflow:hidden; -webkit-transition:all 0.3s; -moz-transition:all 0.3s; transition:all 0.3s; }
 #main .sec06 .slide_bx .slide a:hover > p {color: #666;}
@@ -68,6 +68,10 @@
 }
 
 
+
+
+
+
 .main_btn a {
     display: inline-block;
     position: relative;
@@ -115,6 +119,44 @@
 .main_btn a.black:after {
     background: rgba(0, 125, 197, .2);
 }
+
+#main .sec06 .slide_bx .slide a > strong {
+    display: block;
+    height: 76px;
+    font-size: 28px;
+    line-height: 38px;
+    color: #222;
+    letter-spacing: -0.05em;
+    white-space: normal;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+#main ::after, #main ::before {    display: inline-block;}
+#main .sec06 .slide_bx .slick-dots li button {    position: relative;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    text-indent: -9999px;}
+#main .sec06 .slide_bx .slide a:hover > strong {color: #00c7a9;}
+
+#main .sec06 .slide_bx .slide a div {margin-top: 26px;
+    padding-top: 15px;
+    border-top: 1px solid #ddd;
+    font-size: 0;}
+
+    @media (min-width: 1025px) {
+        #main .sec06 .slide_bx .slide a:hover:after {
+            width: 100%;}}
+
+
+
+
 
 
 
